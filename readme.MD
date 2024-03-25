@@ -3,7 +3,7 @@ docker build . -t createqrcode
 docker run --rm -v D:\source\other\PythonQRCode:/app/qrCodeCreator -e data=https://youtu.be/AsntXEtASvE?si=tiPkRATvqZt9QVDZ slhkl/qrcodecreator
 
 - You need docker if you want to use this way to create QR code.
-- This docker image contains python 3.11 version and runs qr create transactions.
+- This docker image contains python 3.8 version and runs qr create transactions.
 - Run this command in terminal to create image.
 - docker build . -t slhkl/qrcodecreator
 
